@@ -11,7 +11,7 @@ const AddService = () => {
   const onSubmit = (data) => {
     console.log(data);
 
-    const url = `http://localhost:5000/service`;
+    const url = `https://car-servicing-server.adaptable.app/service`;
     fetch(url, {
       method: "POST", // or 'PUT'
       headers: {

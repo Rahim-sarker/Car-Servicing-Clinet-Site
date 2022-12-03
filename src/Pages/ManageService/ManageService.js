@@ -7,7 +7,7 @@ const ManageService = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("Are you sure to delete ?");
     if (proceed) {
-      const url = `http://localhost:5000/service/${id}`;
+      const url = `https://car-servicing-server.adaptable.app/service/${id}`;
       fetch(url, {
         method: "DELETE",
       })
